@@ -1,4 +1,4 @@
- .contenedor{
+ .contenedor{        
     max-width: 120rem;
     margin: 0 auto;
  }
@@ -25,12 +25,20 @@
     box-sizing: inherit;
 }
 
-@media (min-width: 768px) {
-    img{
+@media (max-width: 768px) {
+    .visual{
+        width: 90%;
+    }    
+    .contenedor{
+        overflow-x: hidden;
+        width: 100%; 
+        margin: 0 auto;       
+        padding: 2rem;
+    }
+    .formularios{
         width: 90%;
     }
-    .contenedor{
-        max-width: 99%;
-    }
-    
+    textarea{
+        width: 100%;
+    }    
 }
