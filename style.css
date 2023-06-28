@@ -42,12 +42,7 @@
         width: 100%;
     }    
 }
-@media (max-width: 450px) {
-    .formularios input{
-        width: 100%;
-    }
-    
-}
+
 
 @media (max-width: 320px) {
     .formularios input{
