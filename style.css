@@ -1,8 +1,26 @@
-.contenedor{
+ .contenedor{
     max-width: 120rem;
     margin: 0 auto;
-}
+ }
 
+ img{
+    border-radius: 2rem;
+ }
+
+ .visual{
+    margin: 0 auto; 
+    background-color: #D6EC8Ee9; 
+    padding: 15px; 
+    text-align: center; 
+    width: 50%; 
+    box-shadow: 10px 10px 10px grey;
+    border-radius: 2rem;
+ }
+
+ html {
+    box-sizing: border-box;
+    font-size: 62.5%; 
+}
 *, *:before, *:after {
     box-sizing: inherit;
 }
@@ -10,9 +28,6 @@
 @media (min-width: 768px) {
     img{
         width: 90%;
-    }
-    .contenedor{
-        max-width: 90%;
     }
     
 }
