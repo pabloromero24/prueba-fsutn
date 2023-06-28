@@ -29,5 +29,8 @@
     img{
         width: 90%;
     }
+    .contenedor{
+        max-width: 99%;
+    }
     
 }
